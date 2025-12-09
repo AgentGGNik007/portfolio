@@ -49,5 +49,33 @@ Alle Werkzeuge wurden vollumfänglich genutzt, um den Entwicklungsprozess effizi
 
 Die Projektstruktur wird nach und nach erweitert, bleibt aber klar getrennt in Frontend und Backend:
 
+Portfolio
+|-- .gitignore
+|-- LICENSE
+|-- README.md
+|-- Projekt
+|   |-- frontend
+|   |   |-- public
+|   |   |-- src
+|   |       |-- assets
+|   |       |-- components
+|   |       |-- pages
+|   |       |-- utils
+|   |
+|   |-- backend
+|   |   |-- cmd
+|   |   |   |-- server
+|   |   |
+|   |   |-- internal
+|   |   |   |-- http
+|   |   |   |-- config
+|   |   |   |-- domain
+|   |   |
+|   |   |-- config.example
+|   |       |-- .env.example
+|   |
+|   |-- .github
+|       |-- workflows
+
 
 
